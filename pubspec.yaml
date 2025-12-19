@@ -4,16 +4,16 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.5.0
+  sdk: ^3.8.0
 
 dependencies:
   flutter:
     sdk: flutter
 
   # Core
-  flutter_riverpod: ^2.5.1
-  riverpod_annotation: ^2.3.5
-  freezed_annotation: ^2.4.4
+  flutter_riverpod: ^3.0.3
+  riverpod_annotation: ^3.0.3
+  freezed_annotation: ^3.0.0
   json_annotation: ^4.9.0
 
   # Firebase
@@ -26,8 +26,8 @@ dependencies:
   # firebase_ai: TBD - Firebase AI Logic SDK (add when available or use firebase_vertexai)
 
   # Local Storage
-  drift: ^2.20.2
-  sqlite3_flutter_libs: ^0.5.24
+  drift: ^2.30.0
+  sqlite3_flutter_libs: ^0.5.28
   path_provider: ^2.1.4
   path: ^1.9.0
   shared_preferences: ^2.3.2
@@ -46,7 +46,7 @@ dependencies:
   # Note: Shelf scan uses Gemini API (Firebase AI Logic) for image analysis, not on-device ML Kit
 
   # Subscriptions
-  purchases_flutter: ^8.1.2
+  purchases_flutter: ^9.10.1
 
   # Utilities
   connectivity_plus: ^6.0.5
@@ -64,13 +64,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-  build_runner: ^2.4.12
-  freezed: ^2.5.7
-  json_serializable: ^6.8.0
-  drift_dev: ^2.20.3
-  riverpod_generator: ^2.4.3
-  custom_lint: ^0.7.3
-  riverpod_lint: ^2.3.13
+  build_runner: ^2.10.4
+  freezed: ^3.0.0
+  json_serializable: ^6.9.5
+  drift_dev: ^2.30.0
+  riverpod_generator: ^3.0.3
+  custom_lint: ^0.8.1
+  riverpod_lint: ^3.0.3
 
 flutter:
   uses-material-design: true

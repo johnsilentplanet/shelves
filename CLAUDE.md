@@ -218,42 +218,42 @@ Create platform-adaptive wrappers in `lib/core/widgets/adaptive/`:
 
 #### 2.1 Data Models (Freezed)
 Create in `lib/data/models/`:
-- [ ] `book.dart` - Book model with all fields from PRD schema
+- [x] `book.dart` - Book model with all fields from PRD schema
   - id, isbn, title, subtitle, authors, publisher, publishedDate
   - description, coverImageData, pageCount, categories, language
   - dateAdded, deweyDecimalNumber, bisacCategory, bisacSubcategory
   - shelfId, notes, tags, relatedBookIds
   - loanedTo, loanDate, userRating, dateRead, readingStatus
   - updatedAt, isSynced
-- [ ] `shelf.dart` - Shelf model (id, name, roomId, dateCreated, updatedAt, isSynced)
-- [ ] `room.dart` - Room model (id, name, dateCreated, updatedAt, isSynced)
-- [ ] `user_profile.dart` - User preferences and settings
-- [ ] `reading_status.dart` - Enum: toRead, currentlyReading, read
+- [x] `shelf.dart` - Shelf model (id, name, roomId, dateCreated, updatedAt, isSynced)
+- [x] `room.dart` - Room model (id, name, dateCreated, updatedAt, isSynced)
+- [x] `user_profile.dart` - User preferences and settings
+- [x] `reading_status.dart` - Enum: toRead, currentlyReading, read
 
 #### 2.2 Local Database (Drift)
 Create in `lib/data/datasources/local/`:
-- [ ] `database.dart` - Main Drift database class
-- [ ] `books_table.dart` - Books table definition
-- [ ] `shelves_table.dart` - Shelves table definition
-- [ ] `rooms_table.dart` - Rooms table definition
-- [ ] `books_dao.dart` - Data access object for books (CRUD, queries)
-- [ ] `shelves_dao.dart` - Data access object for shelves
-- [ ] `rooms_dao.dart` - Data access object for rooms
-- [ ] Run `dart run build_runner build` to generate database code
+- [x] `database.dart` - Main Drift database class
+- [x] `tables/books_table.dart` - Books table definition
+- [x] `tables/shelves_table.dart` - Shelves table definition
+- [x] `tables/rooms_table.dart` - Rooms table definition
+- [x] `daos/books_dao.dart` - Data access object for books (CRUD, queries)
+- [x] `daos/shelves_dao.dart` - Data access object for shelves
+- [x] `daos/rooms_dao.dart` - Data access object for rooms
+- [x] Run `dart run build_runner build` to generate database code
 
 #### 2.3 Remote Data Sources
 Create in `lib/data/datasources/remote/`:
-- [ ] `firestore_service.dart` - Firestore CRUD operations
-- [ ] `firebase_storage_service.dart` - Cover image upload/download
-- [ ] `google_books_api.dart` - ISBN lookup, search
-- [ ] `open_library_api.dart` - Fallback metadata source
+- [x] `firestore_service.dart` - Firestore CRUD operations
+- [x] `firebase_storage_service.dart` - Cover image upload/download
+- [x] `google_books_api.dart` - ISBN lookup, search
+- [x] `open_library_api.dart` - Fallback metadata source
 
 #### 2.4 Repositories
 Create in `lib/data/repositories/`:
-- [ ] `book_repository.dart` - Abstracts local + remote book operations
-- [ ] `shelf_repository.dart` - Abstracts local + remote shelf operations
-- [ ] `room_repository.dart` - Abstracts local + remote room operations
-- [ ] `metadata_repository.dart` - Book lookup from Google Books / OpenLibrary
+- [x] `book_repository.dart` - Abstracts local + remote book operations
+- [x] `shelf_repository.dart` - Abstracts local + remote shelf operations
+- [x] `room_repository.dart` - Abstracts local + remote room operations
+- [x] `metadata_repository.dart` - Book lookup from Google Books / OpenLibrary
 
 ---
 

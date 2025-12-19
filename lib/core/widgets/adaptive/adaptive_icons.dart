@@ -13,9 +13,9 @@ abstract final class AdaptiveIcons {
       Platform.isIOS ? CupertinoIcons.house_fill : Icons.home;
 
   static IconData get library =>
-      Platform.isIOS ? CupertinoIcons.book : Icons.library_books_outlined;
+      Platform.isIOS ? CupertinoIcons.collections : Icons.collections_bookmark_outlined;
   static IconData get libraryFilled =>
-      Platform.isIOS ? CupertinoIcons.book_fill : Icons.library_books;
+      Platform.isIOS ? CupertinoIcons.collections_solid : Icons.collections_bookmark;
 
   static IconData get scan => Platform.isIOS
       ? CupertinoIcons.barcode_viewfinder
@@ -27,9 +27,9 @@ abstract final class AdaptiveIcons {
       Platform.isIOS ? CupertinoIcons.square_grid_2x2_fill : Icons.shelves;
 
   static IconData get reading =>
-      Platform.isIOS ? CupertinoIcons.bookmark : Icons.auto_stories_outlined;
+      Platform.isIOS ? CupertinoIcons.book : Icons.auto_stories_outlined;
   static IconData get readingFilled =>
-      Platform.isIOS ? CupertinoIcons.bookmark_fill : Icons.auto_stories;
+      Platform.isIOS ? CupertinoIcons.book_fill : Icons.auto_stories;
 
   static IconData get settings =>
       Platform.isIOS ? CupertinoIcons.gear : Icons.settings_outlined;
