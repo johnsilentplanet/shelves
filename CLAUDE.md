@@ -177,7 +177,7 @@ flutter analyze
 
 #### 1.1 Project Setup & Dependencies
 - [ ] Update `pubspec.yaml` with all required dependencies (see PRD Appendix)
-- [ ] Configure Flutter for iOS 14.0+ and Android API 24+
+- [x] Configure Flutter for iOS 15.5+ and Android API 24+ (mobile_scanner requires iOS 15.5)
 - [ ] Set up code generation: Freezed, JSON serializable, Drift
 - [ ] Configure linting rules in `analysis_options.yaml`
 - [ ] Create folder structure as defined in Project Structure section
