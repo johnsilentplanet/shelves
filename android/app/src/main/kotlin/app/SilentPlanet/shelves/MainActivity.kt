@@ -1,4 +1,4 @@
-package com.example.shelves
+package app.SilentPlanet.shelves
 
 import io.flutter.embedding.android.FlutterActivity
 

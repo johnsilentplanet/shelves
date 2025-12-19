@@ -176,15 +176,15 @@ flutter analyze
 ### Phase 1: Project Foundation
 
 #### 1.1 Project Setup & Dependencies
-- [ ] Update `pubspec.yaml` with all required dependencies (see PRD Appendix)
+- [x] Update `pubspec.yaml` with all required dependencies (see PRD Appendix)
 - [x] Configure Flutter for iOS 15.5+ and Android API 24+ (mobile_scanner requires iOS 15.5)
-- [ ] Set up code generation: Freezed, JSON serializable, Drift
-- [ ] Configure linting rules in `analysis_options.yaml`
-- [ ] Create folder structure as defined in Project Structure section
+- [x] Set up code generation: Freezed, JSON serializable, Drift (packages added, run `dart run build_runner build` when models created)
+- [x] Configure linting rules in `analysis_options.yaml`
+- [x] Create folder structure as defined in Project Structure section
 
 #### 1.2 Firebase Configuration
-- [ ] Create Firebase project in Firebase Console
-- [ ] Add iOS app to Firebase (download `GoogleService-Info.plist`)
+- [x] Create Firebase project in Firebase Console
+- [x] Add iOS app to Firebase (download `GoogleService-Info.plist`)
 - [ ] Add Android app to Firebase (download `google-services.json`)
 - [ ] Run `flutterfire configure` to generate `firebase_options.dart`
 - [ ] Enable Firebase Auth (Email/Password, Google, Apple)
@@ -194,23 +194,23 @@ flutter analyze
 - [ ] Enable Firebase AI Logic (Gemini API)
 
 #### 1.3 Core Theme & Design System
-- [ ] Create `lib/core/theme/app_colors.dart` - shared color palette
-- [ ] Create `lib/core/theme/app_typography.dart` - text styles
-- [ ] Create `lib/core/theme/app_spacing.dart` - spacing constants (4/8/16/24px)
-- [ ] Create `lib/core/theme/app_theme.dart` - ThemeData for light/dark modes
-- [ ] Implement glass-morphism helper widgets (blur, gradients, shadows)
+- [x] Create `lib/core/theme/app_colors.dart` - shared color palette
+- [x] Create `lib/core/theme/app_typography.dart` - text styles
+- [x] Create `lib/core/theme/app_spacing.dart` - spacing constants (4/8/16/24px)
+- [x] Create `lib/core/theme/app_theme.dart` - ThemeData for light/dark modes
+- [x] Implement glass-morphism helper widgets (blur, gradients, shadows) - see `lib/core/widgets/effects/`
 
 #### 1.4 Adaptive Widget Library
 Create platform-adaptive wrappers in `lib/core/widgets/adaptive/`:
-- [ ] `adaptive_app.dart` - CupertinoApp vs MaterialApp
-- [ ] `adaptive_scaffold.dart` - page scaffolding with nav bar
-- [ ] `adaptive_tab_bar.dart` - bottom tab navigation
-- [ ] `adaptive_button.dart` - buttons (filled, outlined, text)
-- [ ] `adaptive_text_field.dart` - text input
-- [ ] `adaptive_switch.dart` - toggle switches
-- [ ] `adaptive_dialog.dart` - alerts and action sheets
-- [ ] `adaptive_list_tile.dart` - list items with actions
-- [ ] `adaptive_icons.dart` - icon mapping helper
+- [x] `adaptive_app.dart` - CupertinoApp vs MaterialApp
+- [x] `adaptive_scaffold.dart` - page scaffolding with nav bar
+- [x] `adaptive_tab_bar.dart` - bottom tab navigation
+- [x] `adaptive_button.dart` - buttons (filled, outlined, text)
+- [x] `adaptive_text_field.dart` - text input
+- [x] `adaptive_switch.dart` - toggle switches
+- [x] `adaptive_dialog.dart` - alerts and action sheets
+- [x] `adaptive_list_tile.dart` - list items with actions
+- [x] `adaptive_icons.dart` - icon mapping helper
 
 ---
 
