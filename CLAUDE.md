@@ -257,30 +257,33 @@ Create in `lib/data/repositories/`:
 
 ---
 
-### Phase 3: State Management & Providers
+### Phase 3: State Management & Providers ✅
 
 #### 3.1 Riverpod Setup
 Create in `lib/core/providers/`:
-- [ ] `database_provider.dart` - Drift database instance
-- [ ] `firebase_providers.dart` - FirebaseAuth, Firestore, Storage instances
-- [ ] `connectivity_provider.dart` - Network status stream
-- [ ] `repository_providers.dart` - All repository providers
+- [x] `database_provider.dart` - Drift database instance
+- [x] `firebase_providers.dart` - FirebaseAuth, Firestore, Storage instances
+- [x] `connectivity_provider.dart` - Network status stream
+- [x] `repository_providers.dart` - All repository providers
+- [x] `dao_providers.dart` - DAO providers (bonus)
+- [x] `remote_service_providers.dart` - Remote service providers (bonus)
 
 #### 3.2 Feature Providers
-- [ ] `lib/features/auth/providers/auth_provider.dart` - Auth state, user
-- [ ] `lib/features/library/providers/books_provider.dart` - Book list, filters, search
-- [ ] `lib/features/shelves/providers/shelves_provider.dart` - Shelf list
-- [ ] `lib/features/shelves/providers/rooms_provider.dart` - Room list
-- [ ] `lib/features/reading/providers/reading_provider.dart` - Reading/read books
-- [ ] `lib/features/settings/providers/settings_provider.dart` - User preferences
-- [ ] `lib/features/premium/providers/subscription_provider.dart` - Premium status
+- [x] `lib/features/auth/providers/auth_provider.dart` - Auth state, user
+- [x] `lib/features/library/providers/books_provider.dart` - Book list, filters, search
+- [x] `lib/features/library/providers/library_filter_provider.dart` - Filtering/sorting (bonus)
+- [x] `lib/features/shelves/providers/shelves_provider.dart` - Shelf list
+- [x] `lib/features/shelves/providers/rooms_provider.dart` - Room list
+- [x] `lib/features/reading/providers/reading_provider.dart` - Reading/read books
+- [x] `lib/features/settings/providers/settings_provider.dart` - User preferences
+- [x] `lib/features/premium/providers/subscription_provider.dart` - Premium status
 
 ---
 
-### Phase 4: Authentication
+### Phase 4: Authentication ✅
 
 #### 4.1 Auth Service
-- [ ] `lib/features/auth/services/auth_service.dart`
+- [x] `lib/features/auth/services/auth_service.dart`
   - Email/password sign up and sign in
   - Google Sign In (both platforms)
   - Apple Sign In (iOS)
@@ -289,18 +292,18 @@ Create in `lib/core/providers/`:
   - Account deletion
 
 #### 4.2 Auth UI
-- [ ] `lib/features/auth/screens/splash_screen.dart` - App launch, auth check
-- [ ] `lib/features/auth/screens/onboarding_screen.dart` - 3-screen intro
-- [ ] `lib/features/auth/screens/login_screen.dart` - Sign in form
-- [ ] `lib/features/auth/screens/signup_screen.dart` - Registration form
-- [ ] `lib/features/auth/screens/forgot_password_screen.dart` - Password recovery
-- [ ] `lib/features/auth/widgets/social_sign_in_buttons.dart` - Google/Apple buttons
+- [x] `lib/features/auth/screens/splash_screen.dart` - App launch, auth check
+- [x] `lib/features/auth/screens/onboarding_screen.dart` - 3-screen intro
+- [x] `lib/features/auth/screens/login_screen.dart` - Sign in form
+- [x] `lib/features/auth/screens/signup_screen.dart` - Registration form
+- [x] `lib/features/auth/screens/forgot_password_screen.dart` - Password recovery
+- [x] `lib/features/auth/widgets/social_sign_in_buttons.dart` - Google/Apple buttons
 
 #### 4.3 Auth Flow
-- [ ] Implement auth state listener in main.dart
-- [ ] Route to onboarding (first launch) or home (authenticated)
-- [ ] Secure credential storage with flutter_secure_storage
-- [ ] Create user profile document in Firestore on signup
+- [x] Implement auth state listener in main.dart
+- [x] Route to onboarding (first launch) or home (authenticated)
+- [x] Secure credential storage with flutter_secure_storage
+- [x] Create user profile document in Firestore on signup
 
 ---
 

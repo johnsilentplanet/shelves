@@ -5,7 +5,7 @@ part 'shelf.g.dart';
 
 /// A shelf for organizing books.
 @freezed
-class Shelf with _$Shelf {
+sealed class Shelf with _$Shelf {
   const factory Shelf({
     /// Unique identifier for the shelf.
     required String id,

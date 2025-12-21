@@ -9,7 +9,7 @@ part 'book.g.dart';
 
 /// A book in the user's library.
 @freezed
-class Book with _$Book {
+sealed class Book with _$Book {
   const factory Book({
     /// Unique identifier for the book.
     required String id,

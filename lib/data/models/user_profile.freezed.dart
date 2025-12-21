@@ -136,10 +136,7 @@ return $default(_that);case _:
 final _that = this;
 switch (_that) {
 case _UserProfile():
-return $default(_that);case _:
-  throw StateError('Unexpected subclass');
-
-}
+return $default(_that);}
 }
 /// A variant of `map` that fallback to returning `null`.
 ///
@@ -198,10 +195,7 @@ return $default(_that.uid,_that.email,_that.displayName,_that.photoUrl,_that.cre
 @optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String uid,  String email,  String? displayName,  String? photoUrl,  DateTime createdAt,  bool showDeweyDecimal,  SortOrder defaultSortOrder,  ThemePreference themePreference,  bool contributeToCommunity,  int overridePremium,  DateTime? lastSyncedAt)  $default,) {final _that = this;
 switch (_that) {
 case _UserProfile():
-return $default(_that.uid,_that.email,_that.displayName,_that.photoUrl,_that.createdAt,_that.showDeweyDecimal,_that.defaultSortOrder,_that.themePreference,_that.contributeToCommunity,_that.overridePremium,_that.lastSyncedAt);case _:
-  throw StateError('Unexpected subclass');
-
-}
+return $default(_that.uid,_that.email,_that.displayName,_that.photoUrl,_that.createdAt,_that.showDeweyDecimal,_that.defaultSortOrder,_that.themePreference,_that.contributeToCommunity,_that.overridePremium,_that.lastSyncedAt);}
 }
 /// A variant of `when` that fallback to returning `null`
 ///

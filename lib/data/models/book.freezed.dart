@@ -170,10 +170,7 @@ return $default(_that);case _:
 final _that = this;
 switch (_that) {
 case _Book():
-return $default(_that);case _:
-  throw StateError('Unexpected subclass');
-
-}
+return $default(_that);}
 }
 /// A variant of `map` that fallback to returning `null`.
 ///
@@ -232,10 +229,7 @@ return $default(_that.id,_that.isbn,_that.title,_that.subtitle,_that.authors,_th
 @optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String isbn,  String title,  String? subtitle,  List<String> authors,  String? publisher,  String? publishedDate,  String? description, @Uint8ListConverter()  Uint8List? coverImageData,  String? coverImageUrl,  int? pageCount,  List<String> categories,  String? language,  DateTime dateAdded,  String? deweyDecimalNumber,  String? bisacCategory,  String? bisacSubcategory,  String? shelfId,  String? notes,  List<String> tags,  List<String> relatedBookIds,  String? loanedTo,  DateTime? loanDate,  int? userRating,  DateTime? dateRead, @ReadingStatusConverter()  ReadingStatus? readingStatus,  DateTime updatedAt,  bool isSynced)  $default,) {final _that = this;
 switch (_that) {
 case _Book():
-return $default(_that.id,_that.isbn,_that.title,_that.subtitle,_that.authors,_that.publisher,_that.publishedDate,_that.description,_that.coverImageData,_that.coverImageUrl,_that.pageCount,_that.categories,_that.language,_that.dateAdded,_that.deweyDecimalNumber,_that.bisacCategory,_that.bisacSubcategory,_that.shelfId,_that.notes,_that.tags,_that.relatedBookIds,_that.loanedTo,_that.loanDate,_that.userRating,_that.dateRead,_that.readingStatus,_that.updatedAt,_that.isSynced);case _:
-  throw StateError('Unexpected subclass');
-
-}
+return $default(_that.id,_that.isbn,_that.title,_that.subtitle,_that.authors,_that.publisher,_that.publishedDate,_that.description,_that.coverImageData,_that.coverImageUrl,_that.pageCount,_that.categories,_that.language,_that.dateAdded,_that.deweyDecimalNumber,_that.bisacCategory,_that.bisacSubcategory,_that.shelfId,_that.notes,_that.tags,_that.relatedBookIds,_that.loanedTo,_that.loanDate,_that.userRating,_that.dateRead,_that.readingStatus,_that.updatedAt,_that.isSynced);}
 }
 /// A variant of `when` that fallback to returning `null`
 ///

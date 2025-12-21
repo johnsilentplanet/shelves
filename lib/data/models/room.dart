@@ -5,7 +5,7 @@ part 'room.g.dart';
 
 /// A room for grouping shelves by physical location.
 @freezed
-class Room with _$Room {
+sealed class Room with _$Room {
   const factory Room({
     /// Unique identifier for the room.
     required String id,

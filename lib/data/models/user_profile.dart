@@ -5,7 +5,7 @@ part 'user_profile.g.dart';
 
 /// User profile and preferences.
 @freezed
-class UserProfile with _$UserProfile {
+sealed class UserProfile with _$UserProfile {
   const factory UserProfile({
     /// User's unique ID (from Firebase Auth).
     required String uid,

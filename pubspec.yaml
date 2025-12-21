@@ -25,6 +25,10 @@ dependencies:
   firebase_crashlytics: ^4.1.3
   # firebase_ai: TBD - Firebase AI Logic SDK (add when available or use firebase_vertexai)
 
+  # Social Sign-In
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^6.1.3
+
   # Local Storage
   drift: ^2.30.0
   sqlite3_flutter_libs: ^0.5.28
